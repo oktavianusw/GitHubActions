@@ -13,7 +13,7 @@ public class send_message {
         String chatId = "1211264412";
 
         // The message you want to send
-        String message = "Hello, this is a test message from your bot!"
+        String message = "Hello, this is a test message from your bot!";
 
         // Send message using Telegram Bot API
         String urlString = "https://api.telegram.org/bot" + botToken + "/sendMessage";
